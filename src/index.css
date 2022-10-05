@@ -1,13 +1,241 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f8f8;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+table {
+  width: 100%;
+  background-color: #413f3d;
+  color: #f6f3ef;
+}
+
+tbody {
+  background-color: #f6f3ef;
+  color: #000000;
+}
+
+.BOLSONARO {
+  background-image: url("./image/bolsonaro.jpeg");
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 60px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 60px;
+  -moz-background-clip: padding;
+  border-radius: 60px;
+  background-clip: padding-box;
+  margin: 7px 0 0 5px;
+  float: left;
+  background-size: cover;
+}
+
+.CIRO {
+  background-image: url("./image/ciro.jpeg");
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 60px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 60px;
+  -moz-background-clip: padding;
+  border-radius: 60px;
+  background-clip: padding-box;
+  margin: 7px 0 0 5px;
+  float: left;
+  background-size: cover;
+}
+
+.EYMAEL {
+  background-image: url("./image/eymael.jpeg");
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 60px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 60px;
+  -moz-background-clip: padding;
+  border-radius: 60px;
+  background-clip: padding-box;
+  margin: 7px 0 0 5px;
+  float: left;
+  background-size: cover;
+}
+
+.FELIPE {
+  background-image: url("./image/felipe.jpeg");
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 60px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 60px;
+  -moz-background-clip: padding;
+  border-radius: 60px;
+  background-clip: padding-box;
+  margin: 7px 0 0 5px;
+  float: left;
+  background-size: cover;
+  background-position: center center;
+}
+
+.LÉO {
+  background-image: url("./image/leo.jpeg");
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 60px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 60px;
+  -moz-background-clip: padding;
+  border-radius: 60px;
+  background-clip: padding-box;
+  margin: 7px 0 0 5px;
+  float: left;
+  background-size: cover;
+}
+
+.LULA {
+  background-image: url("./image/lula.jpeg");
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 60px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 60px;
+  -moz-background-clip: padding;
+  border-radius: 60px;
+  background-clip: padding-box;
+  margin: 7px 0 0 5px;
+  float: left;
+  background-size: cover;
+}
+
+.PADRE {
+  background-image: url("./image/padre.jpeg");
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 60px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 60px;
+  -moz-background-clip: padding;
+  border-radius: 60px;
+  background-clip: padding-box;
+  margin: 7px 0 0 5px;
+  float: left;
+  background-size: cover;
+}
+
+.SIMONE {
+  background-image: url("./image/simone.jpeg");
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 60px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 60px;
+  -moz-background-clip: padding;
+  border-radius: 60px;
+  background-clip: padding-box;
+  margin: 7px 0 0 5px;
+  float: left;
+  background-size: cover;
+}
+
+.SOFIA {
+  background-image: url("./image/sofia.jpeg");
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 60px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 60px;
+  -moz-background-clip: padding;
+  border-radius: 60px;
+  background-clip: padding-box;
+  margin: 7px 0 0 5px;
+  float: left;
+  background-size: cover;
+}
+
+.SORAYA {
+  background-image: url("./image/soraya.jpeg");
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 60px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 60px;
+  -moz-background-clip: padding;
+  border-radius: 60px;
+  background-clip: padding-box;
+  margin: 7px 0 0 5px;
+  float: left;
+  background-size: cover;
+}
+
+.VERA {
+  background-image: url("./image/vera.jpeg");
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 60px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 60px;
+  -moz-background-clip: padding;
+  border-radius: 60px;
+  background-clip: padding-box;
+  margin: 7px 0 0 5px;
+  float: left;
+  background-size: cover;
+}
+
+.circulo {
+  display: flex;
+  flex-direction: column;
+}
+
+.circulos {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px auto;
+  width: 70%;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 12px;
+  color: rgba(87, 50, 145, 1);
+}
+
+h2 {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: rgba(87, 50, 145, 0.8);
+}
+span {
+  font-size: 12px;
+  color: rgb(143, 140, 149);
+  font-weight: bold;
+}
+
+.votes {
+  margin: 5px 10px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+header span {
+  color: rgb(52, 52, 52);
+}
+
