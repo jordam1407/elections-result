@@ -6,7 +6,7 @@ function Cards({ candidatos }) {
       {candidatos.map((cand) => (
         <div className="circulos" key={cand.nm}>
           <div className={cand.nm} />
-          <h1>{cand.nm.replace(/&apos;/, "'")}</h1>
+          <h1>{`${cand.nm.replace(/&apos;/, "'")} - ${cand.n}`}</h1>
           <div className="votes">
             <span>{`Votos: ${(+cand.vap).toLocaleString(
               "pt-BR"

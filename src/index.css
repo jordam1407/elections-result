@@ -203,7 +203,7 @@ tbody {
   flex-direction: row;
   justify-content: space-between;
   margin: 5px auto;
-  width: 70%;
+  width: 80%;
   padding: 5px;
 }
 
@@ -226,6 +226,9 @@ span {
 
 .votes {
   margin: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 header {
@@ -238,4 +241,17 @@ header {
 header span {
   color: rgb(52, 52, 52);
 }
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  outline: inherit;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
 
+button:active {
+  opacity: 50%;
+}
